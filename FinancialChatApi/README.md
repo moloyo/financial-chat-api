@@ -10,10 +10,11 @@ Repo: https://github.com/moloyo/financial-chat-client
 
 ## Server
 
-The server was created with .net 5.0 and can be run with visual studio or running the attached binary files
+The server was created with .net 5.0 and can be run with visual studio or running the attached binary files.
 Repo: https://github.com/moloyo/financial-chat-api
 
 ## Bot
 
 The bot comes with an installer or can be run from visual studio.
 Repo: https://github.com/moloyo/financial-chat-bot
+

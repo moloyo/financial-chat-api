@@ -37,7 +37,7 @@ namespace FinancialChatApi
             services.AddSingleton<IConfiguration>(Configuration);
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")));
+                    Configuration.GetConnectionString("DockerConnection")));
 
             services.AddIdentityCore<Account>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
@@ -109,7 +109,7 @@ namespace FinancialChatApi
         {
             dataContext.Database.Migrate();
 
-            if (env.IsDevelopment())
+            if (true /*env.IsDevelopment()*/)
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();

@@ -3,7 +3,7 @@
   <PropertyGroup Label="Globals">
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
-    <ProjectGuid>787517e8-3cf6-4529-a0fa-41b7da027992</ProjectGuid>
+    <ProjectGuid>82b6fdde-250d-4f7b-bfba-39d6c6002724</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/swagger</DockerServiceUrl>
     <DockerServiceName>financialchatapi</DockerServiceName>

@@ -9,6 +9,8 @@ Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "FinancialChatApi.Installer"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinancialChatApi.Test", "FinancialChatApi.Test\FinancialChatApi.Test.csproj", "{C7BBDCE9-3E09-4EC5-BBA2-567E29A726C7}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{82B6FDDE-250D-4F7B-BFBA-39D6C6002724}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,18 @@ Global
 		{C7BBDCE9-3E09-4EC5-BBA2-567E29A726C7}.Release|x64.Build.0 = Release|Any CPU
 		{C7BBDCE9-3E09-4EC5-BBA2-567E29A726C7}.Release|x86.ActiveCfg = Release|Any CPU
 		{C7BBDCE9-3E09-4EC5-BBA2-567E29A726C7}.Release|x86.Build.0 = Release|Any CPU
+		{82B6FDDE-250D-4F7B-BFBA-39D6C6002724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82B6FDDE-250D-4F7B-BFBA-39D6C6002724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82B6FDDE-250D-4F7B-BFBA-39D6C6002724}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{82B6FDDE-250D-4F7B-BFBA-39D6C6002724}.Debug|x64.Build.0 = Debug|Any CPU
+		{82B6FDDE-250D-4F7B-BFBA-39D6C6002724}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{82B6FDDE-250D-4F7B-BFBA-39D6C6002724}.Debug|x86.Build.0 = Debug|Any CPU
+		{82B6FDDE-250D-4F7B-BFBA-39D6C6002724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82B6FDDE-250D-4F7B-BFBA-39D6C6002724}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82B6FDDE-250D-4F7B-BFBA-39D6C6002724}.Release|x64.ActiveCfg = Release|Any CPU
+		{82B6FDDE-250D-4F7B-BFBA-39D6C6002724}.Release|x64.Build.0 = Release|Any CPU
+		{82B6FDDE-250D-4F7B-BFBA-39D6C6002724}.Release|x86.ActiveCfg = Release|Any CPU
+		{82B6FDDE-250D-4F7B-BFBA-39D6C6002724}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
